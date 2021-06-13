@@ -1,0 +1,51 @@
+
+body{
+    background-image: url(../style1.css/images/pexels-albin-berlin-919073.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-position: center center;
+    background-size:auto;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+a{
+    text-decoration: none; /* To Remove the underscore in the link */
+}
+header{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px 70px;
+
+}
+.container{
+    list-style: none;
+}
+.container li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.container li a{
+    color: white;
+    
+}
+.container li a:hover{
+    color: grey;
+    
+}
+.logo{
+   margin: 0;
+   padding: 0;
+   float: left;
+   width: 260px;
+   height: 45px;
+   background-color: transparent;
+   background: transparent;
+   
+}

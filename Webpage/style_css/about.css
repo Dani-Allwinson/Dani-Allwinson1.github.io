@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+body{
+    font-family: "Calibri", sans-serif;
+    color: rgb(22, 11, 11);
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 2em;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url(https://images.unsplash.com/photo-1551554781-c46200ea959d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdhbGxwYXBlciUyMGJhY2tncm91bmQlMjAxMDI0cHh8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: block;
+    background-color: black;
+    text-align: left;
+    
+}
+li{
+    display: inline;
+    float: left;
+}
+li a {
+     display: block;
+     color: white;
+    padding: 12px 16px;
+    background-color: black;
+    }
+    li a:hover {
+        background-color: #969494;
+        }
+    a:link{
+        text-decoration: none;
+    }
+    a:visited{
+        text-decoration:none;
+    }

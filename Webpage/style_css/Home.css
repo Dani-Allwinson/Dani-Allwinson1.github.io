@@ -1,0 +1,176 @@
+
+body{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(197, 197, 197);
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .header img {
+    float: left;
+    width: 260px;
+    height: 45px;
+    background-color: transparent;
+    background: transparent;
+    
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: block;
+    font-family: "Calibri",sans-serif;
+    text-align: left;
+    background-color : block;
+    float: right;
+    
+}
+li{
+    display: inline;
+    float: left;
+}
+li a {
+     display: block;
+     color: black;/*TEXT COLOR*/
+    padding: 12px 16px;
+    
+    }
+    li a:hover {
+        background-color: white; /* TEXT BACKGROUND*/
+        }
+    a:link{
+        text-decoration: none;
+    }
+    a:visited{
+        text-decoration:none;
+    }
+
+
+      .dropbtn {
+        
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+
+      /*      DROPDOWN CODE   */
+/* Style The Dropdown Button */
+.dropbtn {
+    font-family: "Calibri",sans-serif;
+    background-color: transparent; /* background of [Projects] Dropdown is transparent*/
+    color: black; /* TEXT COLOR */
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: -50;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color : white;
+    min-width: 90px;
+    
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;/* LISTED ITEMS IN DROPDOWN BOX*/
+    padding: 12px 16px;
+    text-decoration: none;
+    
+    display: block; /* To show the list of projects*/
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(165, 165, 165)}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    color: none;
+     background-color: white; /*Projects[TITLE] background*/
+  }
+  .para-content{
+    text-align: center;
+    position: relative;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    font-family: Arial, sans;
+  }
+  .nav{
+    float: right;
+  }
+  .form-container{
+    text-align: center;
+    background-color: 0;
+    border: black;
+
+    color: white;
+    margin: 5em ;
+    padding: 2em;
+    
+  }
+  .form-left{
+    font-weight: bold;
+    display: block;
+    margin: 1em;
+    font-size: 1.2em;
+    color: black;
+  }
+  .input
+{
+  border: 1px solid;
+  width: 40%;
+  padding: 1em;
+  border-radius: .5em;
+  margin-top: 1.2em;
+}
+.input :hover{
+  background-color: black;
+}
+  .button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 0.5em;
+    padding: 1em;
+    width: 10%;
+    text-align: center;
+    box-sizing: border-box;
+  }
