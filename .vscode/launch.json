@@ -14,7 +14,7 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "python": "${command:python.interpreterPath}",
+            "python": "D:/Python/python.exe",
             "program": "${file}",
             "cwd": "${workspaceFolder}",
             "env": {},
